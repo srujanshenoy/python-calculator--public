@@ -64,6 +64,13 @@ while True:
         if choice == '0':
             print("Bye Bye!")
             break
+
+            # prompt the user to what they have to enter
+        if opp_choice != "exponentiation":
+            print(f"enter the numbers you want to {opp_choice}:")
+        elif opp_choice == "exponentiation":
+            print("enter the number you want to exponentiate:")
+
         x = float(input("Enter the first number:"))
         y = float(input("Enter the second number:"))
 # we had given options of what you can enter, they enter the number of the operation.
