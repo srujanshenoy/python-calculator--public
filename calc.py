@@ -35,7 +35,22 @@ while True:
     #
     choice = input("Enter choice(0/1/2/3/4/5):")
 
-    print("Your choice is:", choice)
+    if choice == '1':
+        opp_choice = "Add"
+    elif choice == '2':
+        opp_choice = "Subtract"
+    elif choice == '3':
+        opp_choice = "Multiply"
+    elif choice == '4':
+        opp_choice = "Divide"
+    elif choice == "5":
+        opp_choice = "exponentiation"
+    elif choice == '0':
+        opp_choice = "please exit"
+    else:
+        opp_choice = "undifined"
+
+    print("Your choice is", opp_choice)
 
     if choice in ('1', '2', '3', '4', '5', '0'):
         # if u want to break you enter '0'
@@ -60,3 +75,4 @@ while True:
     else:
         print("Invalid Choice, try again")
         help()
+    help()
