@@ -78,16 +78,16 @@ while True:
 # for the values.
         if choice == '1':
             print(x, "+", y, "=", add(x, y))
-            print("opperation done! next opperation please. \n")
+            print("operation done! next operation please. \n")
         if choice == '2':
             print(x, "-", y, "=", subtract(x, y))
-            print("opperation done! next opperation please. \n")
+            print("operation done! next operation please. \n")
         if choice == '3':
             print(x, "x", y, "=", multiply(x, y))
-            print("opperation done! next opperation please. \n")
+            print("operation done! next operation please. \n")
         if choice == '4':
             print(x, "/", y, "=", divide(x, y))
-            print("opperation done! next opperation please. \n")
+            print("operation done! next operation please. \n")
         if choice == '5':
             print(x, '^', y, exponentiation(x, y))
             print("opperation done! next opperation please. \n")
