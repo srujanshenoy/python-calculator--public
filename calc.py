@@ -55,7 +55,7 @@ while True:
     elif choice == '0':
         opp_choice = "please exit"
     else:
-        opp_choice = "undifined"
+        opp_choice = "undefined"
 
     print("Your choice is", opp_choice)
 
