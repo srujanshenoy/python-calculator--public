@@ -32,8 +32,8 @@ def help():
 
 # introduction for the user to our calculator
 print("Welcome to python calculator! feel free to use this how many ever times you want.")
-print("*you can only enter one opperator")
-print("*you have to enter the numbers for the opperators without any spaces at the begining or end.")
+print("*you can only enter one operator")
+print("*you have to enter the numbers for the operators without any spaces at the beginning or end.")
 print("press 0 and the enter to exit this program.\n \n")
 
 
