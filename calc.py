@@ -90,7 +90,7 @@ while True:
             print("operation done! next operation please. \n")
         if choice == '5':
             print(x, '^', y, exponentiation(x, y))
-            print("opperation done! next opperation please. \n")
+            print("operation done! next operation please. \n")
     else:
         print("Invalid Choice, try again")
         help()
